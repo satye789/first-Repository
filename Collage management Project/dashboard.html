@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SR Group of Institute Dashboard</title>
+    <link rel="icon" type="image/png" href="./image/8487c4964072f0390b52a90fa941ed0f.jpeg">
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(https://www.srgi.in/images/IMG_9914.JPG);
+            background-color: #f2f2f2;
+            color: white;
+            flex-direction: column;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size:cover;
+            height: 100vh;
+            align-items: center;
+            justify-content:center;
+            text-transform: capitalize;
+        }
+        header{
+            height:10vh;
+            background-color: navy;
+            display: flex;
+            justify-content: space-between;
+            padding:10px;
+        }
+        .logo {
+            max-width: 100px;
+            flex-wrap: nowrap;
+            border-radius: 50px;
+        }
+        nav{
+            background-color: rgba(255, 255, 255, 0.185);
+            border-radius: 10px;
+        
+        }
+        .navc:hover{
+            background-color: #020302;
+            color: white;
+            padding:10px;
+            border-radius: 5px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        nav ul li { float: left; 
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding:14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin:auto;
+            flex-wrap:wrap;
+            max-width: 100%;
+            box-sizing: border-box;
+
+        }
+        .card {
+            background-image: linear-gradient(to bottom right,rgb(7, 2, 2),rgb(22, 22, 224));
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 15%;
+            text-align: center;
+            margin: 40vh 0 0 0;
+            
+        }
+        .card:hover{
+            border: 2px solid white;
+        }
+        .card h3 {
+            margin-bottom: 10px;
+        }
+        .card p {
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.6);
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://www.eduska.com/assets/user_logo/8487c4964072f0390b52a90fa941ed0f.jpeg" alt="Logo" class="logo">
+        <h1>s.r institute of management and technology</h1>
+        <nav>
+            <ul>
+                <li><a href="./page1.html" class="navc">Home </a></li>
+                <li><a href="dashboard.html" class="navc">Dashboard</a></li>
+                <li><a href="page2s.html" class="navc">Students</a></li>
+                <li><a href="page2f.html" class="navc">Fee </a></li>
+                <li><a href="page2E.html" class="navc">Exam</a></li>
+                <li><a href="page2em.html" class="navc">Employee</a></li>
+                <li><a href="about.html" class="navc">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="card">
+                <h3>Students</h3>
+                <p>Manage student records and enrollment.</p>
+            </div>
+            <div class="card">
+                <h3>Courses</h3>
+                <p>Manage courses and schedules.</p>
+            </div>
+            <div class="card">
+                <h3>Faculty</h3>
+                <p>Manage faculty information and assignments.</p>
+            </div>
+            <div class="card">
+                <h3>Reports</h3>
+                <p>Generate and view reports.</p>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
